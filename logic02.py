@@ -1,3 +1,4 @@
+
 def main(a,b):
     """
     Given two integers a, b,  check the following statement "Each of the numbers 'a' and 'b' is positive".
@@ -7,4 +8,7 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    
+    return a > 0 and b > 0 
+
+print(main(2,4))
