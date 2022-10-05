@@ -8,5 +8,22 @@ def main(n):
     Returns:
         bool: answer
     """
+    count0=0
+    count1=0
 
-    return
+    x1 = n % 10 
+    count0 += x1 == 0
+    count1 += x1 == 0
+    n //= 10 
+
+
+
+
+
+
+
+
+
+
+
+    return 0
