@@ -8,7 +8,7 @@ def main(x):
     Returns:
         bool: answer
     """
-    a=x 
+    a=x
     x1 = x % 10
     x //= 10
     
@@ -19,6 +19,6 @@ def main(x):
     x //= 10
 
     n = x1 * 100 + x2 * 10 + x3 
-    return n==x
+    return n==a
 
 print(main(999))
