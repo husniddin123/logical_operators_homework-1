@@ -16,14 +16,16 @@ def main(n):
     count1 += x1 == 0
     n //= 10 
 
+    x2 = n % 10 
+    count0 += x2 == 0
+    count1 += x2 == 0
+    n //= 10 
 
+    x3 = n % 10 
+    count0 += x3 == 0
+    count1 += x3 == 0
+    n //= 10 
 
+    return n==0
 
-
-
-
-
-
-
-
-    return 0
+print(main(999))
