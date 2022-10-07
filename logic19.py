@@ -19,6 +19,6 @@ def main(x):
     x //= 10
 
     n = x1 * 100 + x2 * 10 + x3 
-    return n==0
+    return n==x
 
 print(main(999))
